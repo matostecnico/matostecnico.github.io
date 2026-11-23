@@ -1,0 +1,71 @@
+=====================================================================
+  TU PORTFOLIO PROFESIONAL · EMPIEZA AQUÍ
+  (Guía rápida · no necesitás saber programar)
+=====================================================================
+
+Tenés dos caminos. El más simple es usar la plantilla de GitHub
+(no tenés que subir archivos a mano).
+
+
+---------------------------------------------------------------------
+OPCIÓN A (RECOMENDADA) · Usar la plantilla
+---------------------------------------------------------------------
+1) Creá una cuenta gratis en https://github.com
+   (solo email y contraseña).
+
+2) Abrí la plantilla:
+   https://github.com/matostecnico/matostecnico.github.io
+   Tocá el botón verde "Use this template" → "Create a new repository".
+
+3) Ponele este nombre, con TU usuario de GitHub:
+   tu-usuario.github.io
+   (Ejemplo: si tu usuario es juan123 → juan123.github.io)
+   Visibilidad: Public → Create repository.
+
+4) En tu repositorio: Settings → Pages.
+   Branch: main · carpeta: /(root) → Save.
+   Esperá 1-2 minutos. Tu web queda en:
+   https://tu-usuario.github.io
+
+5) Abrí tu web y entrá a:
+   https://tu-usuario.github.io/admin.html
+   Usuario: admin · Contraseña: admin2026
+   ¡CAMBIÁ LA CONTRASEÑA! y completá tus datos
+   (perfil, servicios, proyectos, contacto).
+   Guardá con "Guardar".
+
+
+---------------------------------------------------------------------
+CÓMO PUBLICAR TUS CAMBIOS (para que los vea todo el mundo)
+---------------------------------------------------------------------
+El panel guarda los cambios en TU navegador. Para publicarlos:
+1) En el panel tocá "Exportar" → se descarga content.js.
+2) En GitHub abrí tu repo → carpeta data → archivo content.js.
+3) Tocá el lápiz (Edit), borrá todo, pegá el contenido del
+   archivo descargado y "Commit changes".
+En 1-2 minutos tu web se actualiza.
+
+
+---------------------------------------------------------------------
+OPCIÓN B · Con el ZIP (si no querés usar la plantilla)
+---------------------------------------------------------------------
+1) Descomprimí el ZIP.
+2) Creá un repositorio vacío en GitHub llamado tu-usuario.github.io
+   (Public).
+3) En el repo tocá "uploading an existing file" y arrastrá TODOS
+   los archivos y carpetas del ZIP → Commit changes.
+4) Seguí desde el paso 4 de la Opción A (activar Pages).
+Guía detallada: GUIA-SOCIOS.md
+
+
+---------------------------------------------------------------------
+CONSEJOS RÁPIDOS
+---------------------------------------------------------------------
+- Tu web es bilingüe: cada texto tiene versión ES y EN.
+- Subí fotos desde el panel con el botón "Cargar imagen".
+- Usá imágenes livianas (menos de 1 MB) para que cargue rápido.
+- Después de publicar, en robots.txt y sitemap.xml reemplazá
+  "matostecnico" por tu usuario de GitHub.
+- ¿Dudas? Escribile a Angel por WhatsApp.
+
+=====================================================================
