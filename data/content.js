@@ -18,7 +18,7 @@ window.SITE_CONTENT = {
   },
   "settings": {
     "adminUser": "admin",
-    "adminPass": "410288880",
+    "adminPass": "576115032",
     "defaultLang": "es"
   },
   "profile": {
@@ -449,7 +449,7 @@ window.SITE_CONTENT = {
       "es": "Respondo en menos de 24 h hábiles",
       "en": "I reply within 24 business hours"
     },
-    "web3formsKey": "fedac3d5-fdfa-4e83-9b32-3103a0ed26ed",
+    "web3formsKey": "",
     "formServices": [
       {
         "es": "Automatización industrial y PLC",
