@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de administración</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+  <!-- ========== PANTALLA DE LOGIN ========== -->
+  <div class="login" id="login">
+    <form class="login__caja" id="loginForm">
+      <img src="img/logo.png" alt="Logo" id="loginLogo">
+      <h1>Panel de administración</h1>
+      <p class="sub">Editá el contenido de tu web sin tocar código</p>
+      <div class="fila">
+        <label for="loginUser">Usuario</label>
+        <input type="text" id="loginUser" autocomplete="username" required>
+      </div>
+      <div class="fila">
+        <label for="loginPass">Contraseña</label>
+        <input type="password" id="loginPass" autocomplete="current-password" required>
+      </div>
+      <button class="btn btn--guardar" type="submit" style="width:100%;justify-content:center">Ingresar</button>
+      <p class="login__error" id="loginError"></p>
+    </form>
+  </div>
+
+  <!-- ========== PANEL ========== -->
+  <div class="panel" id="panel">
+    <div class="topbar">
+      <div class="topbar__inner">
+        <div class="topbar__marca">
+          <img src="img/logo.png" alt="Logo" id="panelLogo">
+          <div>Panel admin<span id="marcaNombre"></span></div>
+        </div>
+        <span class="sin-guardar" id="sinGuardar">● Cambios sin guardar</span>
+        <button class="btn" id="btnVer" type="button">👁 Ver sitio</button>
+        <button class="btn" id="btnExportar" type="button">⬇ Exportar</button>
+        <button class="btn" id="btnImportar" type="button">⬆ Importar</button>
+        <button class="btn btn--guardar" id="btnGuardar" type="button">💾 Guardar</button>
+        <button class="btn" id="btnClave" type="button">🔑 Clave</button>
+        <button class="btn btn--peligro" id="btnReset" type="button">↺ Restablecer</button>
+        <button class="btn" id="btnSalir" type="button">Salir</button>
+      </div>
+    </div>
+
+    <div class="cuerpo">
+      <nav class="tabs" id="tabs"></nav>
+      <main class="form-seccion" id="formPanel"></main>
+    </div>
+  </div>
+
+  <input type="file" id="importFile" accept=".js,.json" hidden>
+  <input type="file" id="imgFile" accept="image/*" hidden>
+
+  <script src="data/content.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

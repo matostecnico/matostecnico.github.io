@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angel Matos</title>
+
+  <!-- SEO y redes (se completan automáticamente desde data/content.js) -->
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta name="theme-color" content="#0a0e14">
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- ========== BARRA DE NAVEGACIÓN ========== -->
+  <nav class="nav" id="nav">
+    <div class="contenedor nav__inner">
+      <a href="#inicio" class="nav__logo" id="navLogo"></a>
+      <ul class="nav__menu" id="navMenu"></ul>
+      <div class="nav__acciones">
+        <div class="lang-toggle" role="group" aria-label="Idioma / Language">
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <button class="nav__burger" id="burger" aria-label="Menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO / PORTADA ========== -->
+  <section class="hero" id="inicio">
+    <div class="hero__fondo-img" id="heroFondoImg" aria-hidden="true"></div>
+    <div class="contenedor hero__inner" id="heroInner"></div>
+    <div class="hero__scroll" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE MÍ ========== -->
+  <section class="seccion seccion--alt" id="sobre-mi">
+    <div class="contenedor">
+      <header class="seccion__cabecera reveal">
+        <span class="seccion__etiqueta">01</span>
+        <h2 class="seccion__titulo" id="sobreMiTitulo"></h2>
+      </header>
+      <div id="sobreMiInner"></div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="seccion" id="servicios">
+    <div class="contenedor">
+      <header class="seccion__cabecera reveal">
+        <span class="seccion__etiqueta">02</span>
+        <h2 class="seccion__titulo" id="serviciosTitulo"></h2>
+      </header>
+      <div id="serviciosInner"></div>
+    </div>
+  </section>
+
+  <!-- ========== CÓMO TRABAJO ========== -->
+  <section class="seccion seccion--alt" id="proceso">
+    <div class="contenedor">
+      <header class="seccion__cabecera reveal">
+        <span class="seccion__etiqueta">03</span>
+        <h2 class="seccion__titulo" id="procesoTitulo"></h2>
+      </header>
+      <div id="procesoInner"></div>
+    </div>
+  </section>
+
+  <!-- ========== PROYECTOS ========== -->
+  <section class="seccion" id="proyectos">
+    <div class="contenedor">
+      <header class="seccion__cabecera reveal">
+        <span class="seccion__etiqueta">04</span>
+        <h2 class="seccion__titulo" id="proyectosTitulo"></h2>
+      </header>
+      <div id="proyectosInner"></div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="seccion seccion--alt" id="contacto">
+    <div class="contenedor">
+      <header class="seccion__cabecera reveal">
+        <span class="seccion__etiqueta">05</span>
+        <h2 class="seccion__titulo" id="contactoTitulo"></h2>
+      </header>
+      <div id="contactoInner"></div>
+    </div>
+  </section>
+
+  <!-- ========== PIE DE PÁGINA ========== -->
+  <footer class="footer">
+    <div class="contenedor footer__inner" id="footerInner"></div>
+  </footer>
+
+  <!-- Botones flotantes (WhatsApp / LinkedIn / GitHub) -->
+  <div class="flotantes" id="flotantes"></div>
+
+  <!-- Modal de proyecto -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div class="modal__fondo"></div>
+    <div class="modal__caja">
+      <button class="modal__cerrar" id="modalCerrar" aria-label="Cerrar">✕</button>
+      <div id="modalCuerpo"></div>
+    </div>
+  </div>
+
+  <!-- Modal de certificado (imagen ampliable) -->
+  <div class="modal" id="certModal" role="dialog" aria-modal="true">
+    <div class="modal__fondo"></div>
+    <div class="modal__caja modal__caja--cert">
+      <button class="modal__cerrar" id="certCerrar" aria-label="Cerrar">✕</button>
+      <div id="certCuerpo"></div>
+    </div>
+  </div>
+
+  <!-- Contenido + lógica -->
+  <script src="data/content.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

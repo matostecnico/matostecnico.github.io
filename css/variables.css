@@ -1,0 +1,39 @@
+/* ============================================================
+   VARIABLES DE DISEÑO
+   Cambiá estos valores para modificar TODO el aspecto del sitio
+   sin tocar el resto del CSS.
+   ============================================================ */
+
+:root {
+  /* --- Paleta (tema oscuro técnico) --- */
+  --color-fondo:        #000000;   /* Fondo principal (negro) */
+  --color-fondo-2:      #0f1620;   /* Fondo de tarjetas y secciones alternas */
+  --color-fondo-3:      #151d2b;   /* Fondo elevado (hover, inputs) */
+  --color-borde:        #1e2a3a;   /* Bordes sutiles */
+
+  --color-principal:    #e600ff;   /* Magenta eléctrico */
+  --color-acento:       #0080f6;   /* Azul eléctrico */
+  --color-vino:         #b02a4e;   /* Vinotinto (detalles) */
+
+  --color-texto:        #e6edf3;   /* Texto principal */
+  --color-texto-suave:  #94a3b8;   /* Texto secundario */
+
+  /* --- Tipografías --- */
+  --fuente-titulos: "Inter", system-ui, sans-serif;
+  --fuente-texto:   "Inter", system-ui, sans-serif;
+  --fuente-mono:    "JetBrains Mono", monospace;   /* Detalles técnicos */
+
+  /* --- Tamaños --- */
+  --ancho-max:    1140px;
+  --radio:        14px;            /* Redondeo de tarjetas */
+  --radio-chico:  8px;
+
+  /* --- Efectos --- */
+  --sombra:        0 10px 40px rgba(0, 0, 0, .45);
+  --glow-principal: 0 0 24px rgba(230, 0, 255, .35);
+  --glow-acento:    0 0 24px rgba(0, 128, 246, .35);
+  --transicion:    all .3s ease;
+
+  /* --- Degradados de marca --- */
+  --gradiente-marca: linear-gradient(120deg, var(--color-principal), var(--color-acento));
+}

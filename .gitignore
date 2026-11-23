@@ -1,0 +1,16 @@
+# Archivos fuente / pesados que NO se publican en el repo
+CAMBIOS V1.pdf
+CAMBIOS V1.pptx
+Espacio futurista*.png
+rm380-07.jpg
+SOFT_CAL_PRODUCCION.png
+FOTO DE PERFIL ANGEL.jpg
+6074593.jpg
+
+# Temporales de Office (archivos de bloqueo ~$...)
+~$*
+
+# Archivos de sistema
+Thumbs.db
+desktop.ini
+.DS_Store
