@@ -1,6 +1,6 @@
 /* ============================================================
    CONTENIDO DEL SITIO
-   Generado desde el panel de administración (23/11/2026, 07:56:59)
+   Generado desde el panel de administración (23/11/2026, 09:06:04)
    ============================================================ */
 
 window.SITE_CONTENT = {
@@ -449,7 +449,7 @@ window.SITE_CONTENT = {
       "es": "Respondo en menos de 24 h hábiles",
       "en": "I reply within 24 business hours"
     },
-    "web3formsKey": "",
+    "web3formsKey": "fedac3d5-fdfa-4e83-9b32-3103a0ed26ed",
     "formServices": [
       {
         "es": "Automatización industrial y PLC",
